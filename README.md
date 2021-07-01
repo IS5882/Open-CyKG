@@ -47,7 +47,7 @@ For dataset files please refer to the refrence in the paper.
 		tf.disable_v2_behavior()
 		```
 		
-**For more details on the how the exact process was carried out and the final hyper-parameters used; please refer to Open-CyKG paper**
+**For more details on the how the exact process was carried out and the final hyper-parameters used; please refer to Open-CyKG paper.**
 
 ### Citing:
 Please cite Open-CyKG if you use any of this material in your work.
