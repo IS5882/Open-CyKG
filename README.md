@@ -16,63 +16,30 @@ Persistent Threat (APT) reports. More specifically, we first identify relevant e
 ![](https://raw.githubusercontent.com/malllabiisc/cesi/master/overview.png)
 *Overview of CESI. CESI first acquires side information of noun and relation phrases of Open KB triples. In the second step, it learns embeddings of these NPs and relation phrases while utilizing the side information obtained in previous step. In the third step, CESI performs clustering over the learned embeddings to canonicalize NP and relation phrases. Please refer paper for more details*
 
-### Dependencies
 
-* Compatible with both Python 2.7/3.x
-* Dependencies can be installed using `requirements.txt`
 
 
 ### Datasets
 
-* Datasets ReVerb45k, Base and Ambiguous are included with the repository.
-* The input to CESI is a KG as list of triples. Each triple is stored as a json in a new line. An example entry is shown below:
+* OIE dataset: 
+* NER dataset: 
 
-For dataset please refer to the refrence in the paper.
+For dataset files please refer to the refrence in the paper.
+
+### Code:
+
+#### Dependencies
+
+* Compatible with both Python 3.x
+* Dependencies can be installed as specified in Block 1 in the respective notebooks. 
+* All the code was implemented on Google Colab using GPU. Please ensure that you are using the version as specified in the "Ïnstallion and Drives" block.
+* Make sure to adapt the code based on your dataset and choice of word embeddings.
 
 
-```json
-{
-	"_id": 	  36952,
-	"triple": [
-		"Frederick",
-		"had reached",
-		"Alessandria"
-	],
-	"triple_norm": [
-		"frederick",
-		"have reach",
-		"alessandria"
-	],
-  	"true_link": {
-		"subject": "/m/09w_9",
-		"object":  "/m/02bb_4"
-	},
-  	"src_sentences": [
-		"Frederick had reached Alessandria",
-		"By late October, Frederick had reached Alessandria."
-	],
-	"entity_linking": {
-		"subject":  "Frederick,_Maryland",
-		"object":   "Alessandria"
-	},
-	"kbp_info": []
-}        
-```
+#### Code Refrences:
 
-* `_id` unique id of each triple in the Knowledge Graph. 
-* `triple` denotes the actual triple in the Knowledge Graph
-* `triple_norm` denotes the normalized form of the triple (after lemmatization, lower casing ...)
-* `true_link` is the gold canonicalization of subject and object. For relations gold linking is not available.
-* `src_sentences` is the list of sentences from which the triple was extracted by Open IE algorithms. 
-* `entity_linking` is the Entity Linking side information which is utilized by CESI.
-* `kbp_info` Knowledge-Base Propagation side information used by CESI.
-
-### Usage:
-
-##### Setup Environment:
-
-* After installing python dependencies, execute `sh setup.sh` for setting up required things.
-* Pattern library is required to run the code. Please install it from [Python 2.x](https://github.com/clips/pattern)/[Python 3.x](https://github.com/pattern3/pattern).
+* Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions Stanovsky, Gabriel, et al. `"Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
+* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). 
 
 ##### Start PPDB server:
 
@@ -86,7 +53,7 @@ For dataset please refer to the refrence in the paper.
 * `-name` is an arbitrary name assigned to the run.
 
 ### Citing:
-Please cite the following paper if you use this code in your work.
+Please cite Open-CyKG if you use any of this material in your work.
 
 ```bibtex
 @inproceedings{cesi2018,
