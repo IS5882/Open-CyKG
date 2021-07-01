@@ -3,8 +3,6 @@
 
 [![Journal](http://img.shields.io/badge/WWW-2018-4b44ce.svg)](https://dl.acm.org/citation.cfm?id=3186030/)
 [![Paper](http://img.shields.io/badge/paper-arxiv.1902.00172-B31B1B.svg)](https://arxiv.org/abs/1902.00172)
-[![Slides](http://img.shields.io/badge/slides-pdf-green.svg)](https://shikhar-vashishth.github.io/assets/pdf/slides_cesi.pdf)
-[![Poster](http://img.shields.io/badge/poster-pdf-blue.svg)](https://shikhar-vashishth.github.io/assets/pdf/cesi_poster.pdf)
 
 ### Project Description
 
