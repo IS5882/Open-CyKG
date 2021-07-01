@@ -50,13 +50,6 @@ For dataset files please refer to the refrence in the paper.
 	-- In Optimizer.py also import the aforementioned 2 lines and restart and run all {no use: tf.compat.v1.train.Optimizer}
 
 
-#### Refrences:
-
-* Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions Stanovsky, Gabriel, et al. `"Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
-* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Towards Data Science [Blog](https://towardsdatascience.com/light-on-math-ml-attention-with-keras-dc8dbc1fad39)
-* NER refrence [blog](https://medium.com/@utkarsh.kumar2407/named-entity-recognition-using-bidirectional-lstm-crf-9f4942746b3c)  
-* Knowledge Graph fusion inspired from the work of CESI --> add link
-
 
 ### Citing:
 Please cite Open-CyKG if you use any of this material in your work.
@@ -64,3 +57,11 @@ Please cite Open-CyKG if you use any of this material in your work.
 ```bibtex
 
 ```
+
+#### Refrences:
+
+* Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions `Stanovsky, Gabriel, et al. "Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
+* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Towards Data Science [Blog](https://towardsdatascience.com/light-on-math-ml-attention-with-keras-dc8dbc1fad39)
+* NER refrence [blog](https://medium.com/@utkarsh.kumar2407/named-entity-recognition-using-bidirectional-lstm-crf-9f4942746b3c)  
+* Knowledge Graph fusion motivated by the work of CESI `Vashishth, Shikhar, Prince Jain, and Partha Talukdar. "Cesi: Canonicalizing open knowledge bases using embeddings and side information." Proceedings of the 2018 World Wide Web Conference. 2018.`.
+
