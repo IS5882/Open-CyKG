@@ -23,8 +23,8 @@ Persistent Threat (APT) reports. More specifically, we first identify relevant e
 
 ### Datasets
 
-* OIE dataset: 
-* NER dataset: 
+* OIE dataset: [Malware DB](https://justhalf.github.io/publication/2017-07-01-malwaretextdb) 
+* NER dataset: Microsoft Security Bulletins ([MSB](https://arxiv.org/abs/1308.4941)) and Cyber Threat Intelligence reports ([CTI](https://koreauniv.pure.elsevier.com/en/publications/automatic-extraction-of-named-entities-of-cyber-threats-using-a-d))
 
 For dataset files please refer to the refrence in the paper.
 
