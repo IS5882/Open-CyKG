@@ -40,15 +40,13 @@ For dataset files please refer to the refrence in the paper.
 	
 	-- Use tensorFlow version and Keras version:
 	
-	-- In tensorflow_backend.py import those 2 liness ---> then restart runtime and run all
+	-- In tensorflow_backend.py and Optimizer.py write down those 2 liness ---> then restart runtime
 	
 		```
 		import tensorflow.compat.v1 as tf
 		tf.disable_v2_behavior()
 		```
 		
-	-- In Optimizer.py also import the aforementioned 2 lines and restart and run all {no use: tf.compat.v1.train.Optimizer}
-
 
 
 ### Citing:
