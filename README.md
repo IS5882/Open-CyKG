@@ -50,8 +50,8 @@ For dataset files please refer to the refrence in the paper.
 #### Refrences:
 
 * Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions Stanovsky, Gabriel, et al. `"Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
-* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Source
-* NER snippets: 
+* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Towards Data Science [Blog](https://towardsdatascience.com/light-on-math-ml-attention-with-keras-dc8dbc1fad39)
+* NER snippets refrence [blog](https://medium.com/@utkarsh.kumar2407/named-entity-recognition-using-bidirectional-lstm-crf-9f4942746b3c)  
 
 
 ### Citing:
