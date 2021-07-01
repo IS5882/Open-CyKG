@@ -47,7 +47,7 @@ For dataset files please refer to the refrence in the paper.
 		tf.disable_v2_behavior()
 		```
 		
-
+** For more details on the how the exact process was carried out and the final hyper-parameters used; please refer to Open-CyKG paper **
 
 ### Citing:
 Please cite Open-CyKG if you use any of this material in your work.
@@ -56,12 +56,14 @@ Please cite Open-CyKG if you use any of this material in your work.
 
 ```
 
-#### Refrences:
+#### Implementation Refrences:
 * Contextualized word embediings: [link to Flairs word embedding documentation](https://github.com/flairNLP/flair/blob/master/resources/docs/embeddings/TRANSFORMER_EMBEDDINGS.md), Hugging face link of all pretrained models https://huggingface.co/transformers/v2.3.0/pretrained_models.html 
 * Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions `Stanovsky, Gabriel, et al. "Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
 * OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Towards Data Science [Blog](https://towardsdatascience.com/light-on-math-ml-attention-with-keras-dc8dbc1fad39)
 * NER refrence [blog](https://medium.com/@utkarsh.kumar2407/named-entity-recognition-using-bidirectional-lstm-crf-9f4942746b3c)  
 * Knowledge Graph fusion motivated by the work of CESI `Vashishth, Shikhar, Prince Jain, and Partha Talukdar. "Cesi: Canonicalizing open knowledge bases using embeddings and side information." Proceedings of the 2018 World Wide Web Conference. 2018.`.
+* [Neo4J](https://neo4j.com/) was used for Knowledge Graph visualization.
 
 
-*Please cite the appropriate references in your work*
+*Please cite the appropriate reference(s) in your work*
+
