@@ -33,6 +33,18 @@ For dataset files please refer to the refrence in the paper.
 * Dependencies can be installed as specified in Block 1 in the respective notebooks. 
 * All the code was implemented on Google Colab using GPU. Please ensure that you are using the version as specified in the "Ïnstallion and Drives" block.
 * Make sure to adapt the code based on your dataset and choice of word embeddings.
+* To utlize CRF in NER model using Keras; plase make sure to:
+	
+	-- Use tensorFlow version and Keras version:
+	
+	-- In tensorflow_backend.py import those 2 liness ---> then restart runtime and run all
+	
+		```
+		import tensorflow.compat.v1 as tf
+		tf.disable_v2_behavior()
+		```
+		
+	-- In Optimizer.py also import the aforementioned 2 lines and restart and run all {no use: tf.compat.v1.train.Optimizer}
 
 
 #### Code Refrences:
