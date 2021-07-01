@@ -47,41 +47,16 @@ For dataset files please refer to the refrence in the paper.
 	-- In Optimizer.py also import the aforementioned 2 lines and restart and run all {no use: tf.compat.v1.train.Optimizer}
 
 
-#### Code Refrences:
+#### Refrences:
 
 * Functions in block 3&9 are originally refrenced from the work of Stanvosky et al. Please refer/cite his work, with exception of some modification in the functions Stanovsky, Gabriel, et al. `"Supervised open information extraction." Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). 2018.`
-* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). 
+* OIE implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf). Source
+* NER snippets: 
 
-##### Start PPDB server:
-
-* Running PPDB server is essential for running the main code.
-* To start the server execute: `python ppdb/ppdb_server.py -port 9997`  (Let the server run in a separate terminal)
-
-##### Run the main code:
-
-* `python src/cesi_main.py -name reverb45_test_run`
-* On executing the above command, all the output will be dumped in `output/reverb45_test_run` directory. 
-* `-name` is an arbitrary name assigned to the run.
 
 ### Citing:
 Please cite Open-CyKG if you use any of this material in your work.
 
 ```bibtex
-@inproceedings{cesi2018,
-	author = {Vashishth, Shikhar and Jain, Prince and Talukdar, Partha},
-	title = {{CESI}: Canonicalizing Open Knowledge Bases Using Embeddings and Side Information},
-	booktitle = {Proceedings of the 2018 World Wide Web Conference},
-	series = {WWW '18},
-	year = {2018},
-	isbn = {978-1-4503-5639-8},
-	location = {Lyon, France},
-	pages = {1317--1327},
-	numpages = {11},
-	url = {https://doi.org/10.1145/3178876.3186030},
-	doi = {10.1145/3178876.3186030},
-	acmid = {3186030},
-	publisher = {International World Wide Web Conferences Steering Committee},
-	address = {Republic and Canton of Geneva, Switzerland},
-	keywords = {canonicalization, knowledge graph embeddings, knowledge graphs, open knowledge bases},
-}
+
 ```
