@@ -11,7 +11,7 @@ Persistent Threat (APT) reports. More specifically, we first identify relevant e
 
 
 
-![](https://raw.githubusercontent.com/malllabiisc/cesi/master/overview.png)
+![](https://drive.google.com/file/d/1xGIIDPpEQzCbMNaFB7RWWbRl8vlzPahX/view?usp=sharing)
 
 
 
