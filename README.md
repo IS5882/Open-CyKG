@@ -63,4 +63,4 @@ Please cite Open-CyKG if you use any of this material in your work.
 * NER refrence [blog](https://medium.com/@utkarsh.kumar2407/named-entity-recognition-using-bidirectional-lstm-crf-9f4942746b3c)  
 * Knowledge Graph fusion motivated by the work of CESI `Vashishth, Shikhar, Prince Jain, and Partha Talukdar. "Cesi: Canonicalizing open knowledge bases using embeddings and side information." Proceedings of the 2018 World Wide Web Conference. 2018.`.
 
-*Please cite the approiapte refrences in your work
+*Please cite the appropriate references in your work*
