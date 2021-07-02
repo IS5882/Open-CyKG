@@ -32,7 +32,7 @@ For dataset files please refer to the refrence in the paper.
 
 #### Dependencies
 
-* Compatible with both Python 3.x
+* Compatible with Python 3.x
 * Dependencies can be installed as specified in Block 1 in the respective notebooks. 
 * All the code was implemented on Google Colab using GPU. Please ensure that you are using the version as specified in the "Ïnstallion and Drives" block.
 * Make sure to adapt the code based on your dataset and choice of word embeddings.
