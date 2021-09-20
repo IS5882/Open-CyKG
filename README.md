@@ -1,7 +1,7 @@
 # Open-CyKG
 ## Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph
 
-<!--[![Journal](https://img.shields.io/badge/Journal-Knowledge--Based%20Systems-blue)](https://www.journals.elsevier.com/knowledge-based-systems)-->
+[![Journal](https://img.shields.io/badge/Journal-Knowledge--Based%20Systems-blue)](https://www.journals.elsevier.com/knowledge-based-systems)
 [![Paper](https://img.shields.io/badge/Paper-Open--CyKG-red)](ADD link)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Injy%20Sarhan-yellow)](https://scholar.google.nl/citations?user=Otq5vX0AAAAJ&hl=nl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Injy%20Sarhan-brightgreen)](https://linkedin.com/in/injy-sarhan-03294295)
