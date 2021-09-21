@@ -51,7 +51,8 @@ For dataset files please refer to the appropiate refrence in the paper.
 
 ### Citing:
 Please cite Open-CyKG if you use any of this material in your work.
-I. Sarhan and M. Spruit, Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph, Knowledge-Based Systems (2021), doi: https://doi.org/10.1016/j.knosys.2021.107524.
+
+`I. Sarhan and M. Spruit, Open-CyKG: An Open Cyber Threat Intelligence Knowledge Graph, Knowledge-Based Systems (2021), doi: https://doi.org/10.1016/j.knosys.2021.107524.`
 
 ```bibtex
 
